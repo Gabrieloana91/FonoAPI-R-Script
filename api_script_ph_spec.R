@@ -1,6 +1,4 @@
-token = '24ffe1511a7d11f027abd1db41cb5a16c0876c4106b6d30b'
-
-get_device <- function(device, brand = NULL, token){
+get_device <- function(device=NULL, brand = NULL, token){
   
   if(length(nchar(token)) == 0){
     stop("Insert a valid token from https://fonoapi.freshpixl.com/")
@@ -52,8 +50,6 @@ get_device <- function(device, brand = NULL, token){
   
   # Warning + Error Messages
   temp <- content(fileName)
-  # cat(temp$message)
-  
   if(length(nchar(temp$message)) > 0){
     stop(temp$message)
   }
