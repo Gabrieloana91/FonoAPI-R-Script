@@ -7,3 +7,6 @@ This is an API which provides mobile devices specifications such as RAM, GPU, Sc
 * The function is written in R and designed to work in R alone. 
 * Last Updated: 2018-02-12
 * More Information Here: https://github.com/shakee93/fonoapi/blob/master/README.md#fonoapi---mobile-device-description-api
+
+## Specifications obtained per device
+*https://github.com/shakee93/fonoapi/blob/master/resultset.md
